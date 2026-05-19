@@ -1,6 +1,6 @@
 # expo-ui Dynamic Type font modifier iOS repro
 
-Wanted text in an `@expo/ui` app to scale with iOS Dynamic Type and realized the `font` modifier resolves to fixed-size SwiftUI factories only. Filed [`expo/expo#PRNUM`](https://github.com/expo/expo/pull/PRNUM) to add a `textStyle` option that maps to `Font.system(_:design:)` and `Font.custom(_:size:relativeTo:)`, the SwiftUI-native path for [Apple's Larger Text Accessibility Nutrition Label](https://developer.apple.com/help/app-store-connect/manage-app-accessibility/larger-text-evaluation-criteria). This repo is the minimal repro so maintainers and reviewers don't have to spend time recreating one to validate the PR.
+Wanted text in an `@expo/ui` app to scale with iOS Dynamic Type and realized the `font` modifier resolves to fixed-size SwiftUI factories only. Filed [`expo/expo#46007`](https://github.com/expo/expo/pull/46007) to add a `textStyle` option that maps to `Font.system(_:design:)` and `Font.custom(_:size:relativeTo:)`, the SwiftUI-native path for [Apple's Larger Text Accessibility Nutrition Label](https://developer.apple.com/help/app-store-connect/manage-app-accessibility/larger-text-evaluation-criteria). This repo is the minimal repro so maintainers and reviewers don't have to spend time recreating one to validate the PR.
 
 <table>
   <tr>

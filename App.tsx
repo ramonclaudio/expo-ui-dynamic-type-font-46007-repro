@@ -22,7 +22,6 @@ export default function App() {
   return (
     <Host style={{ flex: 1 }}>
       <Form>
-        <HowToScale />
         <SystemTextStyles />
         <CustomFontRelativeToStyle />
         <FixedSizeBaseline />
@@ -30,21 +29,6 @@ export default function App() {
         <StatusBarSection />
       </Form>
     </Host>
-  );
-}
-
-function HowToScale() {
-  return (
-    <Section title="How to drive Dynamic Type">
-      <Text modifiers={[foregroundStyle('secondaryLabel')]}>
-        Settings &gt; Accessibility &gt; Display & Text Size &gt; Larger Text. Drag the slider all
-        the way right (AX5).
-      </Text>
-      <Text modifiers={[foregroundStyle('secondaryLabel')]}>
-        Or programmatically: `xcrun simctl ui booted content_size
-        accessibilityExtraExtraExtraLarge`.
-      </Text>
-    </Section>
   );
 }
 

@@ -15,16 +15,16 @@
     "expo": "~56.0.0-preview.13",
     "expo-dev-client": "~56.0.12",
     "expo-status-bar": "~56.0.4",
-    "react": "19.2.3",
+    "react": "19.2.6",
     "react-native": "0.85.3"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
-    "typescript": "~5.9.2"
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
   },
   "private": true,
   "overrides": {
-    "react": "19.2.3",
-    "@types/react": "~19.1.0"
+    "react": "19.2.6",
+    "@types/react": "~19.2.2"
   }
 }

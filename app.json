@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Dynamic Type Font Repro",
+    "slug": "dynamic-type-font-repro",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.dynamictypefontrepro",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.dynamictypefontrepro",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": ["expo-dev-client"],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

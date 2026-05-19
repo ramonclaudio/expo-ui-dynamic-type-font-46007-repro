@@ -38,7 +38,7 @@ Swap the patched build for the vanilla published version, reinstall, run typeche
 
 ```bash
 sed -i.bak 's|"@expo/ui": "file:./expo-ui-56.0.9.tgz"|"@expo/ui": "56.0.9"|' package.json
-trash node_modules bun.lock
+rm -rf node_modules bun.lock
 bun install
 npx tsc --noEmit
 ```
